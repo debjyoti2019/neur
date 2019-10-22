@@ -14,3 +14,14 @@
 .main-header .jumbotron h1{
     font-weight: 500;
 }
+
+#faq{
+    text-align: center;
+    padding-top: 100px;
+    background-color: #f2f2f2;
+}
+
+#faq h1{
+    padding-top: 20px;
+}
+
