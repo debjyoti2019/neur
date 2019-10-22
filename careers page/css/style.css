@@ -15,6 +15,10 @@
     font-weight: 500;
 }
 
+.main-header .jumbotron .btn{
+    margin-top: 30px;
+}
+
 #main-content{
     display: flex;
     align-items: flex-start;
