@@ -19,12 +19,18 @@
     display: flex;
     align-items: flex-start;
     padding-top: 100px;
+    margin: 0 0 24px;
+    align-items: justify;
+    color: #484848;
+    font-family: sans-serif;
+
 }
 
-#main-content .row .col .s6 img{
-    background-image: url('../img/1034.jpg');
-    background-size: cover;
+#main-content .container .container-fluid .p1,.p2,.p3{
+    padding-top: 20px;
+    font-size: 18px;
 }
+
 
 #faq{
     text-align: center;
@@ -36,3 +42,11 @@
     padding-top: 20px;
 }
 
+#faq h4{
+    padding-bottom: 60px;
+}
+
+#footer{
+    padding: 20px;
+    text-align: center;
+}
