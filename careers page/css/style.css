@@ -27,12 +27,9 @@
     align-items: justify;
     color: #484848;
     font-family: sans-serif;
-
-}
-
-#main-content{
     padding-bottom: 30px;
 }
+
 #main-content .container .container-fluid .p1,.p2,.p3{
     padding-top: 20px;
     font-size: 18px;
