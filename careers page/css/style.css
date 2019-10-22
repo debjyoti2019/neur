@@ -1,0 +1,16 @@
+.main-header{
+    background-image: url('../img/apple-background-connection-399161.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    min-height: 700px;
+    color: #fff;
+}
+
+.main-header .jumbotron{
+    padding-top: 200px;
+}
+
+.main-header .jumbotron h1{
+    font-weight: 500;
+}
