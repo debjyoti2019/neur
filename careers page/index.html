@@ -182,8 +182,8 @@
             </div>
           </div>
           <div class="modal-footer d-flex justify-content-center">
-            <button class="btn btn-unique btn-primary">
-              Submit<i class="fas fa-paper-plane-o ml-1"></i>
+            <button id="my" class="btn btn-unique btn-primary">
+              Submit
             </button>
           </div>
         </div>
@@ -250,6 +250,32 @@
       </div>
     </footer>
     <!-- end of footer -->
+
+    <div id="myModal2" class="modal fade">
+      <div class="conatiner row d-flex justify-content-center">
+      <div class="modal-dialog modal-confirm">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div class="icon-box">
+                <img
+                alt="svgImg"
+                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSAyIDQgTCAyIDUuMzUxNTYyNSBMIDQgNi42MDU0Njg4IEwgMTIgMTEuNjE5MTQxIEwgMjAgNi42NDA2MjUgTCAyMiA1LjM5NDUzMTIgTCAyMiA0IEwgMiA0IHogTSAyIDcuNzEyODkwNiBMIDIgMjAgTCAyMiAyMCBMIDIyIDcuNzUgTCAxMi4wMDE5NTMgMTMuODg4NjcyIEwgMiA3LjcxMjg5MDYgeiI+PC9wYXRoPjwvc3ZnPg=="
+              />
+            </div>				
+            <h4 class="modal-title">Awesome!</h4>	
+          </div>
+          <div class="modal-body">
+            <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
+          </div>
+          <div class="modal-footer">
+            <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+          </div>
+        </div>
+      </div>
+    </div> 
+    </div>    
+
+
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -274,6 +300,15 @@
       $(document).ready(function() {
         $("#myBtn").click(function() {
           $("#myModal").modal("show");
+        });
+      });
+
+      $(document).ready(function() {
+        $("#my").click(function() {
+          
+          $("#myModal").modal("hide");
+          $("#myModal2").modal("show");
+
         });
       });
     </script>
