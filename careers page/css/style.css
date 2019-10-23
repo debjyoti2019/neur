@@ -133,5 +133,6 @@
 .modal-confirm .modal-header .p1{
     padding-top: 20px;
     margin: auto;
-    font-size: 18px;
+    font-size: 28px;
+    font-weight: 500;
 }
