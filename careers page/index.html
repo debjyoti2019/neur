@@ -251,31 +251,35 @@
     </footer>
     <!-- end of footer -->
 
+    <!-- success modal -->
+
     <div id="myModal2" class="modal fade">
       <div class="conatiner row d-flex justify-content-center">
-      <div class="modal-dialog modal-confirm">
-        <div class="modal-content">
-          <div class="modal-header">
-            <div class="icon-box">
+        <div class="modal-dialog modal-confirm">
+          <div class="modal-content">
+            <div class="modal-header">
+              <div class="icon-box">
                 <img
-                alt="svgImg"
-                src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iMjQiIGhlaWdodD0iMjQiCnZpZXdCb3g9IjAgMCAyNCAyNCIKc3R5bGU9IiBmaWxsOiMwMDAwMDA7Ij4gICAgPHBhdGggZD0iTSAyIDQgTCAyIDUuMzUxNTYyNSBMIDQgNi42MDU0Njg4IEwgMTIgMTEuNjE5MTQxIEwgMjAgNi42NDA2MjUgTCAyMiA1LjM5NDUzMTIgTCAyMiA0IEwgMiA0IHogTSAyIDcuNzEyODkwNiBMIDIgMjAgTCAyMiAyMCBMIDIyIDcuNzUgTCAxMi4wMDE5NTMgMTMuODg4NjcyIEwgMiA3LjcxMjg5MDYgeiI+PC9wYXRoPjwvc3ZnPg=="
-              />
-            </div>				
-            <h4 class="modal-title">Awesome!</h4>	
-          </div>
-          <div class="modal-body">
-            <p class="text-center">Your booking has been confirmed. Check your email for detials.</p>
-          </div>
-          <div class="modal-footer">
-            <button class="btn btn-success btn-block" data-dismiss="modal">OK</button>
+                  alt="svgImg"
+                  src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHg9IjBweCIgeT0iMHB4Igp3aWR0aD0iNDgiIGhlaWdodD0iNDgiCnZpZXdCb3g9IjAgMCAxNzIgMTcyIgpzdHlsZT0iIGZpbGw6IzAwMDAwMDsiPjxnIGZpbGw9Im5vbmUiIGZpbGwtcnVsZT0ibm9uemVybyIgc3Ryb2tlPSJub25lIiBzdHJva2Utd2lkdGg9IjEiIHN0cm9rZS1saW5lY2FwPSJidXR0IiBzdHJva2UtbGluZWpvaW49Im1pdGVyIiBzdHJva2UtbWl0ZXJsaW1pdD0iMTAiIHN0cm9rZS1kYXNoYXJyYXk9IiIgc3Ryb2tlLWRhc2hvZmZzZXQ9IjAiIGZvbnQtZmFtaWx5PSJub25lIiBmb250LXdlaWdodD0ibm9uZSIgZm9udC1zaXplPSJub25lIiB0ZXh0LWFuY2hvcj0ibm9uZSIgc3R5bGU9Im1peC1ibGVuZC1tb2RlOiBub3JtYWwiPjxwYXRoIGQ9Ik0wLDE3MnYtMTcyaDE3MnYxNzJ6IiBmaWxsPSJub25lIj48L3BhdGg+PGcgZmlsbD0iIzAwMDAwMCI+PHBhdGggZD0iTTE0NS40MzI5NCwzNy45MzI5NGwtODAuOTMyOTQsODAuOTMyOTVsLTMwLjc2NjI4LC0zMC43NjYyOGwtMTAuMTM0MTEsMTAuMTM0MTFsNDAuOTAwMzksNDAuOTAwMzlsOTEuMDY3MDYsLTkxLjA2NzA1eiI+PC9wYXRoPjwvZz48L2c+PC9zdmc+"
+                />
+              </div>
+              <p class="p1">Awesome!</p>
+            </div>
+            <div class="modal-body">
+              <p class="text-center">You'll be hearing us from soon.</p>
+            </div>
+            <div class="modal-footer">
+              <button class="btn btn-success btn-block" data-dismiss="modal">
+                OK
+              </button>
+            </div>
           </div>
         </div>
       </div>
-    </div> 
-    </div>    
+    </div>
 
-
+    <!-- end of success modal -->
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -305,10 +309,8 @@
 
       $(document).ready(function() {
         $("#my").click(function() {
-          
           $("#myModal").modal("hide");
           $("#myModal2").modal("show");
-
         });
       });
     </script>
